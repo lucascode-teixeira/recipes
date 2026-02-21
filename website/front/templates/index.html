@@ -2,10 +2,14 @@
 
 {% load static %}
 
-{% block title %}Recipes{% endblock %}
+{% block title %}Index{% endblock %}
+
+{% block css_template %}
+    <link rel="stylesheet" href="{% static 'css/templates/index.css' %}">
+{% endblock %}
 
 {% block content %}
-    <h1>Recipes</h1>
+    <h1>Index Page!</h1>
     <p>Bem Vindo, {{ name }}!</p>
     <p>Receitas do Lusca</p>
 {% endblock %}

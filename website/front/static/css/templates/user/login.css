@@ -1,0 +1,14 @@
+body {
+    background-color: aliceblue !important;
+}
+
+.box-login {
+    width: 500px;
+    border: 1px solid gray;
+    padding: 20px;
+}
+
+.card {
+    width: 300px;
+}
+
